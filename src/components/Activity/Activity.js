@@ -15,7 +15,7 @@ const Activity = (props) => {
                 <p>For Age: {age}</p>
                 <h5>Time required:{time} min</h5>
             </div>
-            <button onClick={Handler} className='btn'>Add to List</button>
+            <button onClick={() => Handler(props.activity)} className='btn'>Add to List</button>
         </div>
     );
 };

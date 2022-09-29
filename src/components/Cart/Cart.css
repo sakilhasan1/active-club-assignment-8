@@ -1,0 +1,33 @@
+.cart {
+    position: sticky;
+    top: 0;
+    padding: 28px 23px;
+}
+
+.maser {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+    margin: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    border-radius: 30px;
+}
+
+.bu {
+    width: 100%;
+    background: #0514f1;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    padding-top: 3px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
