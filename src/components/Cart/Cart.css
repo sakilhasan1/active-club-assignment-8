@@ -31,3 +31,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.bu:hover {
+    background-color: rgb(234, 0, 255);
+}

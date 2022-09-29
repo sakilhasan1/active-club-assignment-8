@@ -29,6 +29,9 @@ const Cart = (props) => {
     const btnHan = () => {
         setBtn(50)
     };
+    const Alert = () => {
+        alert('Congratulation! Done your activity')
+    }
     return (
         <div className='cart'>
             <h2>Rakib Hasan:{props.cart.id}</h2>
@@ -52,7 +55,7 @@ const Cart = (props) => {
                 <h4>Exercise time: {total}min </h4>
                 <h4>Break time: {btn} </h4>
             </div>
-            <button className='bu'>Activity Completed</button>
+            <button onClick={Alert} className='bu'>Activity Completed</button>
         </div>
     );
 }
